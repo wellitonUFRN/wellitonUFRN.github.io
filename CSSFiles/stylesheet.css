@@ -1,0 +1,527 @@
+body{
+    color: #20303c;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    letter-spacing: .4px;
+    font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9fafa;
+}
+
+a, abbr, body, button, caption, div,
+dl, dt, fieldset, font, footer, form,
+h1, h2, h3, h4, h5, h6, header, html,
+i, img, legend, li, nav, object, ol, p, q, s, span,
+table, tbody, td, tfoot, th, thead,
+title, tr, u, ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+#footerCenteredContent, #headerCenteredContent{
+    position: relative;
+}
+
+#mainContainer{
+    position: relative;
+    display: block;
+    align-self: stretch;
+    grid-area: 3/1/4/2;
+}
+
+#maininlineContent{
+    height: 100%;
+}
+
+#maininlineContent-1, #maininlineContent-2, #headerinlineContent, #footerinlineContent{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#headerinlineContent-gridContainer, #footerinlineContent-gridContainer{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-columns: 100%;
+}
+
+#maininlineContent-gridContainer-1{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 2837px;
+    margin-top: -111px;
+    grid-template-rows: min-content min-content min-content min-content 1fr;
+    grid-template-columns: 100%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#maininlineContent-gridContainer-2{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 760px;
+    grid-template-rows: min-content min-content min-content min-content min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+#maininlineContent-gridContainer{
+    display: flex;
+    pointer-events: none;
+}
+
+#maininlineContent-gridContainer2{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 760px;
+    grid-template-rows: min-content min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+#maininlineContent-gridContainer2-1{
+    position: relative;
+    margin: 487px 0px 7px calc((100% - 735px) * 0.5);
+    left: 17px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#maininlineContent-gridContainer2-2{
+    position: relative;
+    margin: 0px 0px 28px calc((100% - 735px) * 0.5);
+    left: 12px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#maininlineContent-gridContainer2-3{
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 735px) * 0.5);
+    left: 15px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#headerinlineContent-gridContainer{
+    grid-template-rows: 1fr;
+}
+
+#footerinlineContent-gridContainer{
+    grid-template-rows: min-content 1fr;
+}
+
+#component-headerinlineContent-gridContainer{
+    margin: 23px 0px 29px calc((100% - 980px) * 0.5);
+    position: relative;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-gridContainer{
+    position: relative;
+    margin: 0px 0px 27px calc((100% - 980px) * 0.5);
+    margin-left: calc(50% - 490px);
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1Container{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 351px;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+#component-maininlineContent-grid1-1{
+    position: relative;
+    margin: 111px 0px 29px calc((100% - 245px) * 0.5);
+    left: 52px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-maininlineContent-grid1-2{
+    position: relative;
+    margin: 0px 0px 24px calc((100% - 245px) * 0.5);
+    left: 2px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-maininlineContent-grid1-3{
+    position: relative;
+    margin: 0px 0px 59px calc((100% - 245px) * 0.5);
+    left: 34px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-1{
+    position: relative;
+    margin: 70px 0px 44px calc((100% - 980px) * 0.5);
+    left: 20px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-2{
+    position: relative;
+    margin: 26px 0px 10px calc((100% - 980px) * 0.5);
+    left: 20px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-3{
+    position: relative;
+    margin: 79px 0px 68px calc((100% - 980px) * 0.5);
+    left: 572px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-4{
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+    left: 572px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-5{
+    position: static;
+    height: 41px;
+    width: 0;
+    margin: 6px 0px 10px calc((100% - 980px) * 0.5);
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-footerinlineContent-grid1-5-1{
+    position: relative;
+    left: 919px;
+    top: 0px;
+}
+
+#component-footerinlineContent{
+    position: relative;
+    margin: 0px 0px 28px calc((100% - 980px) * 0.5);
+    left: 20px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-maininlineContent{
+    position: relative;
+    margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#component-maininlineContent2{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.style-mainScreenBackgroud, .style-footerScreenBackgroud, .style-inlineContent,
+.style-footer-color, .style-headerCenteredContentbg, .style-footerCenteredContentbg,
+.style-centeredContent, .style-header-screenbackground, .style-maininlineContentBackgroud{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-itemsContainer{
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    position: relative;
+}
+
+.style-footer-itemsContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.style-maininlineContent-grid1{
+    display: block;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.style-maininlineContent-grid1-1{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.style-footerinlineContent-grid1-4{
+    justify-content: center;
+    background-color: rgba(85, 105, 220, 1);
+    border: solid transparent 0px;
+    cursor: pointer !important;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.style-footerinlineContent-grid1-5{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-footerinlineContentLabel{
+    margin: 0;
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+}
+
+.style-Button{
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    font: italic normal normal 16px/1.4em 'playfair display',serif;
+}
+
+.style-headerCenteredContentColorbg{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    background-color: rgba(85, 105, 220, 1);
+    border-radius: 0;
+}
+
+.style-footerCenteredContentColorbg{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    background-color: rgba(85, 105, 220, 1);
+    border-radius: 0;
+}
+
+.style-header-colorbackground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(85, 105, 220, 1);
+    border-top: 0px solid rgba(33, 51, 87, 1);
+    border-bottom: 0px solid rgba(33, 51, 87, 1);
+}
+
+.style-footer-Colorbackgroud{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(85, 105, 220, 1);
+    border-top: 0px solid rgba(33, 51, 87, 1);
+    border-bottom: 0px solid rgba(33, 51, 87, 1);
+}
+
+.style-headerbutton{
+    cursor: pointer;
+    font: italic normal normal 16px/1.4em 'playfair display',serif;
+}
+
+.style-headerButtonLabel{
+    display: inline-block;
+    padding: 0 10px;
+    color: #FFFFFF;
+    transition: color 0.4s ease 0s;
+}
+
+.component-main-grid1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    -ms-grid-columns: 100%;
+    -ms-grid-rows: 1fr;
+}
+
+.component-footer-grid1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+
+.component-main-grid1-balata{
+    position: relative;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column-span: 1;
+    margin: 0 auto;
+}
+
+.component-footer-grid1-balata{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+
+.component-main-grid1-inlineContent, .component-main-grid1-inlineContent-2, .component-main-grid1-inlineContent-1,
+.component-footer-grid1-inlineContent, .component-footer-grid1-inlineContent-container{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.component-main-grid1-inlineContent, .component-footer-grid1-inlineContent{
+    display: flex;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    margin: 0 auto;
+}
+
+
+.txt{
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.txt a{
+    color: inherit;
+}
+
+.txt h1{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.txt h2{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.labelImage a{
+    display: block;
+    height: 100%;
+}
+
+.font_0{
+    font: normal normal bold 88px/1.4em playfairdisplay-bold,'playfair display',serif;
+    color: #FFFFFF;
+}
+
+.font_2{
+    font: italic normal normal 32px/1.4em 'playfair display',serif;
+    line-height: 1.4em;
+    color: #5569DC;
+}
+
+.font_3{
+    font: normal normal normal 24px/1.4em futura-lt-w01-light,sans-serif;
+    color: #5569DC;
+}
+
+.font_4{
+    font: italic normal normal 21px/1.4em 'playfair display',serif;
+    line-height: 1.4em;
+    color: #213357;
+}
+
+.font_9{
+    font: italic normal normal 14px/1.4em 'playfair display',serif;
+    line-height: 1.4em;
+    color: #213357;
+}
+
+.font_8{
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    color: #1C2349;
+}
+
+.color_11{
+    color: #FFFFFF;
+}
+
+.color_20{
+    color: #1C2349;
+}
